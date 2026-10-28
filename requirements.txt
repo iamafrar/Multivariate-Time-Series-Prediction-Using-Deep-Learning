@@ -7,4 +7,4 @@ pandas==3.1.0
 scikit-learn==1.9.1
 seaborn==0.13.2
 statsmodels==0.15.0
-tensorflow==2.21.0
+torch==2.15.0 #you can use Pytorch or TensorFlow its your wish here i choose Pytorch.
