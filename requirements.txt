@@ -1,10 +1,25 @@
-ipykernel==7.4.0
-joblib==1.6.0
-jupyter==1.1.1
-matplotlib==3.11.2
-numpy==2.5.4
-pandas==3.1.0
-scikit-learn==1.9.1
-seaborn==0.13.2
-statsmodels==0.15.0
-torch==2.15.0 #you can use Pytorch or TensorFlow its your wish here i choose Pytorch.
+# Python 3.13 (tested with 3.13.5)
+
+# Data handling
+numpy = 2.5.4
+pandas = 3.1.0
+
+# Visualization
+matplotlib = 3.11.2
+seaborn = 0.13.2
+
+# Machine learning, feature selection and metrics
+scikit-learn = 1.9.1
+
+# Time series analysis (autocorrelation plot)
+statsmodels = 0.15.0
+
+# Deep learning (LSTM, GRU, CNN-LSTM)
+torch = 2.15.0
+
+# Saving scalers, baseline models and feature lists
+joblib = 1.6.0
+
+# Running the notebooks
+jupyter = 1.1.1
+ipykernel = 7.4.0
